@@ -1,11 +1,11 @@
 # Optimización del Análisis de Coyuntura Política con IA
 
-MVP en Streamlit para convertir un audio político en una transcripción auditable, un perfil exploratorio de audio, un filtro de relevancia política y un insumo estructurado para el análisis de coyuntura.
+MVP de herramienta politológica desarollada en Streamlit para convertir un audio de un discurso  político en una transcripción auditable, un perfil exploratorio de audio, un filtro de relevancia política y un insumo estructurado para el análisis de coyuntura política.
 
-> [!IMPORTANTE]
-> **Estado actual del proyecto:** este repositorio contiene una **prueba de concepto / MVP monolítico**, pensada principalmente para **discursos políticos de un solo hablante**. No realiza diarización, no separa automáticamente varias voces, no procesa lotes de audios y no sustituye el juicio profesional del politólogo. Su propósito es validar si una herramienta de IA puede integrarse de forma útil, trazable y metodológicamente prudente a la caja de herramientas cotidiana de la Ciencia Política.
+> [!IMPORTANT]
+> **Estado actual del proyecto:** este repositorio contiene una **Propuesta de trabajo de grado / bajo la idea de prueba de concepto PoC**, pensada principalmente para **discursos políticos de un solo hablante**. No realiza diarización, no separa automáticamente varias voces, no procesa lotes de audios y no sustituye el juicio profesional del politólogo. Su propósito es validar si una herramienta de IA puede integrarse de forma útil, trazable y metodológicamente prudente a la caja de herramientas cotidiana de la Ciencia Política.
 
-El proyecto demuestra un flujo completo:
+El proyecto sigue el siugiente flujo completo:
 
 ```text
 Audio
@@ -37,8 +37,8 @@ Antes de ejecutar la aplicación necesitas:
 ### 1.2. Clonar el repositorio
 
 ```bash
-git clone https://github.com/ahenaor/ejm_art_ed.git
-cd ejm_art_ed
+git clone https://github.com/xxxxxxx
+cd xxxxx
 ```
 
 ### 1.3. Crear y activar un entorno virtual
@@ -584,7 +584,7 @@ Consulta [`src/system_prompts/README.md`](src/system_prompts/README.md).
 El perfil `01_dsrm_colombia_general.md` está formulado como un marco general aplicable a distintos contextos políticos. Integra categorías atribuidas en el propio archivo a De Souza, Nieto, Zamitiz, Errejón, Fazio, Licha, García y Schmitt.
 
 > [!NOTE]
-> El perfil todavía conserva referencias bibliográficas pendientes de completar para De Souza y Nieto, marcadas como `XXXX`. Antes de utilizar el artefacto en una publicación académica, tesis o instrumento formalmente validado, conviene completar y revisar esas referencias.
+> El perfil todavía conserva referencias bibliográficas pendientes de completar para De Souza y Nieto, marcadas como `XXXX`. Edisón...  completar y revisar esas referencias.
 
 ---
 
@@ -694,7 +694,7 @@ La aplicación también está preparada para leer documentos opcionales desde:
 src/project_docs/
 ```
 
-Si esa carpeta no existe, el chequeo la reporta como una condición no crítica. Puede utilizarse en el futuro para mostrar documentos teóricos, manuales metodológicos o notas de diseño dentro de la pestaña **Proyecto**.
+Si esa carpeta no existe, el chequeo la reporta como una condición no crítica. Se espera que se utlice para mostrar documentos teóricos, manuales metodológicos o notas de diseño dentro de la pestaña **Proyecto**.
 
 ---
 
@@ -756,7 +756,7 @@ No utilices el MVP para vigilancia, perfilamiento automático de personas o deci
 
 ---
 
-## 19. Hoja de ruta: de prueba de concepto a herramienta politológica
+## 19. Hoja de ruta: de prueba de concepto hacia una herramienta politológica robusta
 
 El valor del MVP no está solo en su funcionamiento actual, sino en demostrar que es posible construir herramientas especializadas para el trabajo cotidiano de politólogos, investigadores, docentes, consultores y equipos de análisis.
 
@@ -984,7 +984,7 @@ Este proyecto se distribuye bajo licencia MIT.
 
 Consulta [LICENSE](LICENSE).
 
-Copyright © 2026 Alejandro Henao Ruiz.
+Copyright © 2026 Edinso....
 
 ---
 
@@ -1003,5 +1003,5 @@ Copyright © 2026 Alejandro Henao Ruiz.
 
 ## Autor
 
-**Alejandro Henao Ruiz**  
-Politólogo, docente e investigador interesado en métodos cuantitativos, analítica de datos e inteligencia artificial aplicada a la Ciencia Política.
+**Edison...**  
+PPeriodista..., Politólogo....
