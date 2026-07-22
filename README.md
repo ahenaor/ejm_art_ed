@@ -2,7 +2,7 @@
 
 MVP en Streamlit para convertir un audio político en una transcripción auditable, un perfil exploratorio de audio, un filtro de relevancia política y un insumo estructurado para el análisis de coyuntura.
 
-> [!IMPORTANT]
+> [!IMPORTANTE]
 > **Estado actual del proyecto:** este repositorio contiene una **prueba de concepto / MVP monolítico**, pensada principalmente para **discursos políticos de un solo hablante**. No realiza diarización, no separa automáticamente varias voces, no procesa lotes de audios y no sustituye el juicio profesional del politólogo. Su propósito es validar si una herramienta de IA puede integrarse de forma útil, trazable y metodológicamente prudente a la caja de herramientas cotidiana de la Ciencia Política.
 
 El proyecto demuestra un flujo completo:
