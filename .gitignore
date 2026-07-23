@@ -12,6 +12,7 @@ dist/
 *.egg-info/
 .eggs/
 *.egg
+pip-wheel-metadata/
 MANIFEST
 
 # Virtual environments
@@ -24,6 +25,7 @@ ENV/
 .pytest_cache/
 .mypy_cache/
 .pyre/
+.pyright/
 .pytype/
 .ruff_cache/
 .hypothesis/
@@ -51,6 +53,8 @@ ipython_config.py
 
 # config.toml is intentionally NOT ignored because it contains
 # non-secret UI/server configuration that should travel with the repo.
+# Local-only Streamlit overrides should not be committed.
+.streamlit/config.local.toml
 
 # ============================================================
 # Environment variables and credentials
@@ -84,6 +88,11 @@ exports/
 data/private/
 data/uploads/
 
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
 # ============================================================
 # Editors and operating systems
 # ============================================================
@@ -95,7 +104,6 @@ data/uploads/
 
 # macOS metadata
 .DS_Store
-**/.DS_Store
 ._*
 .AppleDouble
 .LSOverride
